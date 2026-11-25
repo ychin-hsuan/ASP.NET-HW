@@ -1,0 +1,9 @@
+﻿.tablestyle {
+    background-color: #CCFFCC;
+    text-align: center;
+}
+
+    .tablestyle td {
+        text-align: center;
+        vertical-align: middle;
+    }

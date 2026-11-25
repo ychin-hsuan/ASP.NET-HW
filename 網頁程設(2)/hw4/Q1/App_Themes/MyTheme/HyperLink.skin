@@ -1,0 +1,1 @@
+﻿<asp:HyperLink runat="server" ForeColor="Blue" Font-Bold="true" Font-Size="Small" NavigateUrl="https://tw.portal-pokemon.com/play/pokedex/" />

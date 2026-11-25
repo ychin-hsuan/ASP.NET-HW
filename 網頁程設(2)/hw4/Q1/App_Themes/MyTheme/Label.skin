@@ -1,0 +1,8 @@
+﻿<%-- 預設面板：表格第 3 列之後的 Label --%>
+<asp:Label runat="server" Width="80px" Font-Bold="true" Font-Size="Small" ForeColor="Black" />
+
+<%-- 具名面板：第 1 列標題 --%>
+<asp:Label runat="server" SkinID="tableheader" Width="100%" Font-Bold="true" Font-Size="Small" ForeColor="White" BackColor="#993300" />
+
+<%-- 具名面板：第 2 列欄位標題 --%>
+<asp:Label runat="server" SkinID="columnheader" Width="80px" Font-Bold="true" Font-Size="Small" ForeColor="#663300" BackColor="#FF9900" />

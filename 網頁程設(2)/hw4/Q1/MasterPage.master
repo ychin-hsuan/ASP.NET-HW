@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+            <table class="tablestyle">
+                <tr>
+                    <td colspan="7">
+                        <asp:Label ID="Label1" SkinID="tableheader" runat="server" Text="寶可夢圖鑑"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label2" runat="server" Text="編號" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label3" runat="server" Text="名稱" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label4" runat="server" Text="屬性" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label5" runat="server" Text="身高" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label6" runat="server" Text="體重" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label7" runat="server" Text="技能" SkinID="columnheader"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:Label ID="Label8" runat="server" Text="圖片" SkinID="columnheader"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder4" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder11" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder13" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder14" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder15" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder16" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder17" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder18" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder19" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder20" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder21" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder22" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder23" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder24" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder25" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder26" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder27" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder28" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder29" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder30" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder31" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder32" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder33" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder34" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder35" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder36" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+        
+    </div>
+    </form>
+</body>
+</html>
